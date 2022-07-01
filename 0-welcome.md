@@ -12,6 +12,6 @@ Each module will contain descriptions and examples.  At the end of each module, 
 
 For questions or comments, please send them to:
 
-Erin Engler, BYU-Idaho, CSE 310, Section 3
+Erin Engler, BYU-Idaho, CSE 212
 
 eng20015@byui.edu

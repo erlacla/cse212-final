@@ -20,3 +20,5 @@
 * Common Errors
 * Example
 * Problem to Solve
+
+Preview with ctrl-shift-V
