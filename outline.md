@@ -21,4 +21,4 @@
 * Example
 * Problem to Solve
 
-Preview with ctrl-shift-V
+Within Visual Studio Code you can preview with ctrl-shift-V

@@ -31,7 +31,7 @@ Like I mentioned before, Stacks are extremely helpful for programmers or anyone 
 
 When you write a program (in any programming language) there are functions you call that call other functions, etc. This is always kept track of with a stack. You can see the stack in your editor when you debug a program. Look for the "CALL STACK" box and you will see the stack that your program is creating.
 
-![Alternate Text to Display](call_stack.png)
+![Alternate Text to Display](images/call_stack.png)
 
 
 
@@ -127,7 +127,7 @@ print(bad_to_good(text))
 
 The program first creates an empty stack. Then it goes through each word in the inputted sentance and checks if the word is 'bad'. If it is it appends the word 'good' in it's place. If the word is not 'bad', it appends the original word to the stack. Then we join the words back together to display the revised sentance. Here is an example of the program in action:
 
-![Alternate Text to Display](example_program.png)
+![Alternate Text to Display](images/example_program.png)
 
 
 
