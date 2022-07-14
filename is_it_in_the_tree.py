@@ -74,3 +74,5 @@ print(9 in tree)
 print(1 in tree)
 print()
 print()
+
+#You should see True, True, True, False, False, True
