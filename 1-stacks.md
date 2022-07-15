@@ -1,6 +1,6 @@
 # Stacks
 
-Stacks are a type of data structure. You use a list of items and when you have them in a stack it's functionality is `"Last in, first out" or LIFO.` We use stacks all the time, even if we don't realize it. Think about a web browser page. Lets say you clicked on a link that took you to a page you actally arent interested in but there was more on the previous page you wanted to explore. What do you do? You click on the back button to return to the previous page. A web browser always saves a stack of the web links visited in order so you can naviage back to a previous page. This is a simple example of `LIFO.` 
+Stacks are a type of data structure. You use a list of items and when you have them in a stack its functionality is `"Last in, first out" or LIFO.` We use stacks all the time, even if we don't realize it. Think about a web browser page. Let's say you clicked on a link that took you to a page you actually aren't interested in but there was more on the previous page you wanted to explore. What do you do? You click on the back button to return to the previous page. A web browser always saves a stack of the web links visited in order so you can navigate back to a previous page. This is a simple example of `LIFO.` 
 
 A stack in python is pretty simple to work with. To create a stack use square brackets, like this:
 
@@ -27,7 +27,7 @@ This will return the last item in the list. Remember, `last in, first out.`
 
 ## Why Stacks are Useful
 
-Like I mentioned before, Stacks are extremely helpful for programmers or anyone who uses a computer. Having a "undo" button, and trusting it will go back to the previous step, is very useful.
+As I mentioned before, Stacks are extremely helpful for programmers or anyone who uses a computer. Having a "undo" button, and trusting it will go back to the previous step, is very useful.
 
 When you write a program (in any programming language) there are functions you call that call other functions, etc. This is always kept track of with a stack. You can see the stack in your editor when you debug a program. Look for the "CALL STACK" box and you will see the stack that your program is creating.
 
@@ -80,7 +80,7 @@ print(myStack.peek())
 
 When using a stack structure here is a common error to avoid:
 
-Lets say you've been asked to create a program that will search through a given string and remove any duplicate letters next to eachother. You begin by creating a new empty stack called stack_1. You use a for loop to search through each letter in the string to find duplicates. If it's a duplicate letter right next to eachother then you use the pop() operation to remove it from the stack. If it is not a duplicate you use the append() opperation to add it to the stack. 
+Let's say you've been asked to create a program that will search through a given string and remove any duplicate letters next to each other. You begin by creating a new empty stack called stack_1. You use a for loop to search through each letter in the string to find duplicates. If it's a duplicate letter right next to each other then you use the pop() operation to remove it from the stack. If it is not a duplicate you use the append() operation to add it to the stack. 
 
 One thing that programmers often forget to do is to check if the srting given is empty. If you run the program with an empty string you will get an error. The first line inside the for loop says 'if stack_1'. This is checking if the string is empty.
 
@@ -100,13 +100,13 @@ print(duplicates(first))
 ```
 
 
-## Example : Bad to Good Program
+## Example: Bad to Good Program
 
 In the example below, we will write a simple program that changes the word 'bad' into the word 'good' from a given string. This program uses a stack.
 
-- Allow the user to type any sentance they want using the word 'bad'
+- Allow the user to type any sentence they want using the word 'bad'
 - Replace the word 'bad' with 'good'
-- Display the new sentance
+- Display the new sentence
 
 ```python
 def bad_to_good(text):
@@ -120,12 +120,12 @@ def bad_to_good(text):
     return s.join(stack)
 
 print("Welcome to 'Bad to Good'")
-text = input("Type a sentance with the word 'bad' used several times to create a bad senario:")
+text = input("Type a sentence with the word 'bad' used several times to create a bad scenario:")
 
 print(bad_to_good(text))
 ```
 
-The program first creates an empty stack. Then it goes through each word in the inputted sentance and checks if the word is 'bad'. If it is it appends the word 'good' in it's place. If the word is not 'bad', it appends the original word to the stack. Then we join the words back together to display the revised sentance. Here is an example of the program in action:
+The program first creates an empty stack. Then it goes through each word in the inputted sentence and checks if the word is 'bad'. If it is it appends the word 'good' in its place. If the word is not 'bad', it appends the original word to the stack. Then we join the words back together to display the revised sentence. Here is an example of the program in action:
 
 ![Alternate Text to Display](images/example_program.png)
 
@@ -135,14 +135,14 @@ The program first creates an empty stack. Then it goes through each word in the 
 
 
 
-## Problem to Solve : Remove The Numbers
+## Problem to Solve: Remove The Numbers
 
 Write a program that will find and remove all numbers in a given string using a stack.
 
 You can test your program with the following scenarios:
 
 - Test 1: Enter abcdefghij12345678klmnopqrstuvwxyz   -You should get the alphabet without any numbers back.
-- Test 2: Enter I went to the 54321 grocery store    -You should get the sentance without 54321 back.
+- Test 2: Enter I went to the 54321 grocery store    -You should get the sentence without 54321 back.
 - Test 3: Enter 123456789applegrapestrawberrypeach   -You should get the fruit with no numbers back.
 - Test 4: Enter 1a2b3c                               -You should get abc back.
 
