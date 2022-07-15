@@ -82,7 +82,7 @@ When using a stack structure here is a common error to avoid:
 
 Let's say you've been asked to create a program that will search through a given string and remove any duplicate letters next to each other. You begin by creating a new empty stack called stack_1. You use a for loop to search through each letter in the string to find duplicates. If it's a duplicate letter right next to each other then you use the pop() operation to remove it from the stack. If it is not a duplicate you use the append() operation to add it to the stack. 
 
-One thing that programmers often forget to do is to check if the srting given is empty. If you run the program with an empty string you will get an error. The first line inside the for loop says 'if stack_1'. This is checking if the string is empty.
+One thing that programmers often forget to do is to check if the string given is empty. If you run the program with an empty string you will get an error. The first line inside the for loop says 'if stack_1'. This is checking if the string is empty.
 
 ```Python
 def duplicates(first):
