@@ -56,7 +56,7 @@ new_set = set()
 
 
 
-## Example: Random Number Guessing Game
+## Example: Remove Duplicates
 
 Here is a program that will take a given set of numbers or letters and remove all duplicates using a set.
 
