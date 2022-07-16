@@ -75,6 +75,11 @@ print()
 ```
 You can see that the set returned is enclosed in curly braces and that all duplicates are gone.
 
+EXAMPLE:  **Type several numbers and letters and include several duplicates:jjshhhss7773hgdhjajs**
+
+**{'g', 'j', '7', 's', 'd', 'h', '3', 'a'}**
+
+
 
 ## Problem to Solve : Find The Intersection
 
